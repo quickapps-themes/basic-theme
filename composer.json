@@ -1,0 +1,35 @@
+{
+    "name": "quickapps-themes/basic-theme",
+    "description": "QuickApps CMS theme skeleton.",
+    "type": "quickapps-plugin",
+    "keywords": [
+        "framework",
+        "cms",
+        "cmf",
+        "quickapps",
+        "theme",
+        "responsive layout",
+        "full width template"
+    ],
+    "homepage": "http://quickappscms.org",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Christopher Castro",
+            "email": "chris@quickapps.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "quickapps/cms": "2.0.*-dev"
+    },
+    "version": "1.0",
+    "extra": {
+        "admin": false,
+        "regions": {
+            "main-menu": "Main Menu",
+            "right-sidebar": "Right Sidebar",
+            "site-footer": "Site Footer"
+        }
+    }
+}
