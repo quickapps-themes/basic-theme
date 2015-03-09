@@ -36,7 +36,7 @@
 		<div class="blog-masthead">
 			<div class="container">
 				<nav class="blog-nav">
-					<?php echo $this->Region->create('main-menu')->render(); ?>
+					<?php echo $this->region('main-menu'); ?>
 				</nav>
 			</div>
 		</div>
@@ -59,13 +59,13 @@
 				</div>
 
 				<div class="col-sm-3 col-sm-offset-1 right-sidebar">
-					<?php echo $this->Region->create('right-sidebar')->render(); ?>
+					<?php echo $this->region('right-sidebar'); ?>
 				</div>
 			</div>
 		</div>
 
 	    <div class="blog-footer">
-	    	<?php echo $this->Region->create('site-footer')->render(); ?>
+	    	<?php echo $this->region('site-footer'); ?>
 	    </div>
 	</body>
 </html>
